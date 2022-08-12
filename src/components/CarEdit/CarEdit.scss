@@ -1,0 +1,35 @@
+@import '../../index.scss';
+
+.carEdit {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $modal-background;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100%;
+  z-index: 10;
+}
+
+.carEdit__form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba($color-light, 0.8);
+  backdrop-filter: blur(0.5rem);
+  border-radius: 3rem;
+  padding: 3rem 0;
+  width: 50%;
+  height: 55rem;
+}
+
+.carEdit__close {
+  font-size: 2rem;
+  top: 0;
+  margin-right: 28rem;
+  cursor: pointer;
+}

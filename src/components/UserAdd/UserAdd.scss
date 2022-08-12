@@ -1,0 +1,23 @@
+@import '../../index.scss';
+
+.userAdd__form {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba($color-light, 0.8);
+  backdrop-filter: blur(0.5rem);
+  border-radius: 3rem;
+  padding: 3rem 0;
+  width: 50%;
+  height: 52rem;
+}
+
+.userAdd__close {
+  font-size: 2rem;
+  top: 0;
+  margin-right: 70rem;
+  cursor: pointer;
+  z-index: 10;
+}

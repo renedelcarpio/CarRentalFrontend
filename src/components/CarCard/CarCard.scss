@@ -1,0 +1,99 @@
+@import '../../index.scss';
+
+.car__card {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border: $border;
+  border-radius: 2rem;
+  margin: 1rem;
+  padding: 2rem 5rem;
+  height: 35rem;
+  width: 50%;
+  overflow: hidden;
+}
+
+.car__brand {
+  font-size: 3rem;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.car__type {
+  font-size: 1.4rem;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.car__specs {
+  list-style: none;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.car__specs--item {
+  font-size: 2rem;
+}
+
+.car__specs--icon {
+  font-size: 2.2rem;
+}
+
+.car__image {
+  width: 25rem;
+  object-fit: cover;
+  align-self: center;
+  justify-self: center;
+  margin-right: 8rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.car__available {
+  justify-self: flex-end;
+  font-size: 1.8rem;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.car__price--title {
+  justify-self: flex-end;
+  font-size: 1.4rem;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.car__price {
+  justify-self: flex-end;
+  font-size: 3rem;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.car__button {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}

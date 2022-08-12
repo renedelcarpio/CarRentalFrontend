@@ -1,0 +1,13 @@
+@import '../../index.scss';
+
+.approved {
+  color: $color-success;
+}
+
+.rejected {
+  color: $color-alert;
+}
+
+.pendign {
+  color: $color-primary;
+}

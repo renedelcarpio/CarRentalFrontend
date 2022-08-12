@@ -1,0 +1,58 @@
+@import '../../index.scss';
+
+.rental {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $modal-background;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100%;
+  z-index: 10;
+}
+
+.rental__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba($color-light, 0.8);
+  backdrop-filter: blur(0.5rem);
+  border-radius: 3rem;
+  padding: 3rem 0;
+  width: 50%;
+}
+
+.rental__close {
+  font-size: 2rem;
+  top: 0;
+  margin-right: 70rem;
+  cursor: pointer;
+}
+
+.rental__title {
+  margin-bottom: 2rem;
+}
+
+input {
+  background: rgba($color-dark, 0.2);
+  border: none;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 2rem;
+  width: 25rem;
+}
+
+label {
+  color: $color-primary;
+  margin-top: 1.5rem;
+  margin-bottom: 0.2rem;
+  width: 25rem;
+  text-align: start;
+}
+
+.rental__button {
+  margin-top: 2rem;
+}

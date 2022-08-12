@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+.addCar {
+  align-self: flex-end;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
+}
+
+.carList__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carList__image {
+  width: 10rem;
+  margin-right: 3rem;
+}
+
+.carList__item {
+  font-size: 1.4rem;
+  width: 12rem;
+}
+
+.carlist__price {
+  text-align: center;
+}

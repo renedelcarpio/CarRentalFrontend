@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Righteous&display=swap');
+
+$font1: 'Righteous', cursive;
+$font2: 'Orbitron', sans-serif;
+
+$color-light: #ffffff;
+$color-dark: #45403c;
+$color-success: #239900;
+$color-success-dark: #286600;
+$color-alert: #fe245d;
+$color-alert-dark: #ac1840;
+$color-primary: #18c2ef;
+$color-primary-dark: #1294b7;
+
+$modal-background: rgba($color-dark, 0.3);
+
+$border: 0.1rem solid rgba($color-dark, 0.3);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: $font1;
+}

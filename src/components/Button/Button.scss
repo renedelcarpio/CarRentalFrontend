@@ -1,0 +1,42 @@
+@import '../../index.scss';
+
+.btn {
+  justify-self: flex-end;
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 1rem 3rem;
+}
+
+.primary {
+  background: $color-primary;
+  color: $color-light;
+  transition: all 0.3s;
+
+  &:hover {
+    background: $color-primary-dark;
+  }
+}
+
+.secondary {
+  background: $color-success;
+  color: $color-light;
+  transition: all 0.3s;
+
+  &:hover {
+    background: $color-success-dark;
+  }
+}
+
+.alert {
+  background: $color-alert;
+  color: $color-light;
+  transition: all 0.3s;
+
+  &:hover {
+    background: $color-alert-dark;
+  }
+}

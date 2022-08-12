@@ -1,0 +1,49 @@
+@import '../../index.scss';
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  width: 100vw;
+  height: 8rem;
+  padding: 0 5rem;
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    cursor: pointer;
+  }
+
+  &__list {
+    display: flex;
+    margin-left: 2rem;
+    list-style: none;
+  }
+
+  &__active {
+    color: $color-primary;
+    font-size: 1.6rem;
+    text-decoration: none;
+  }
+
+  &__item {
+    color: $color-dark;
+    font-size: 1.4rem;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+
+  &__username {
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+}
